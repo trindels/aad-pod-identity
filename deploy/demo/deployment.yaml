@@ -21,9 +21,9 @@ spec:
         image: "mcr.microsoft.com/k8s/aad-pod-identity/demo:1.2"
         imagePullPolicy: Always
         args:
-          - "--subscriptionid=61f3232b-7b0a-4c0c-b558-b241ec754ca4"
-          - "--clientid=b8e91d2c-5865-4206-8d5e-f64a0dd087e7"
-          - "--resourcegroup=MC_trr-aks_trraks_westus2"
+          - "--subscriptionid=SUBSCRIPTION_ID"
+          - "--clientid=CLIENT_ID"
+          - "--resourcegroup=RESOURCE_GROUP"
           # TO SPECIFY NAME OF RESOURCE TO GRANT TOKEN ADD --aad-resourcename
           # this demo defaults aad-resourcename to https://management.azure.com/
           # e.g. - "--aad-resourcename=https://vault.azure.net"

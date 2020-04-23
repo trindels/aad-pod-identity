@@ -4,5 +4,5 @@ metadata:
   name: demo-aad1
 spec:
   type: 0
-  ResourceID: /subscriptions/61f3232b-7b0a-4c0c-b558-b241ec754ca4/resourcegroups/MC_trr-aks_trraks_westus2/providers/Microsoft.ManagedIdentity/userAssignedIdentities/demo-aad1
-  ClientID: b8e91d2c-5865-4206-8d5e-f64a0dd087e7
+  ResourceID: RESOURCE_ID
+  ClientID: CLIENT_ID
